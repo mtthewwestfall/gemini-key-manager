@@ -1,4 +1,2 @@
-fastapi>=0.110
-uvicorn[standard]>=0.29
-requests>=2.31
-pydantic>=2.0
+# No external dependencies — stdlib only (sqlite3, hashlib, json,
+# threading, urllib, datetime). This file intentionally lists nothing.
